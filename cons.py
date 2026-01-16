@@ -1,4 +1,4 @@
 class Cons:
-    def __init__(self, res: int, cost: float):
+    def __init__(self, res: int, cost: int):
         self.res: int = res
-        self.cost: float = cost
+        self.cost: int = cost

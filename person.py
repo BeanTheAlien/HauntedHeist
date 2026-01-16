@@ -35,10 +35,12 @@ class Person:
             item = self.inv.findDrink(100 - self.thirst)
             if item:
               self.cons(item)
+        elif self.money > 1000:
+          pass
       elif self.isTired():
         self.sleep()
       elif self.isBored():
-        pass
+        self.fun()
     else:
       pass
   def tick(self):
@@ -57,11 +59,12 @@ class Person:
       self.thirst += item.res
     self.inv.rm(item)
   def sleep(self):
-    self.tired -= self.ran(10, 30)
+    self.tired -= self.ranSml()
   def fun(self):
-    self.bored -= self.ran(10, 30)
+    self.bored -= self.ranSml()
   def work(self):
-    self.bored += self.ran(10, 30)
+    self.bored += self.ranSml()
+    self.money += self.ran(100, 200)
   
   # stat checks
   def isHungry(self) -> bool:
@@ -78,6 +81,8 @@ class Person:
   # utils
   def ran(self, a: int, b: int) -> int:
     return random.randint(a, b)
+  def ranSml(self) -> int:
+    return self.ran(10, 30)
   
   def __str__(self):
     return f"-- Person --\nName: \"{self.name}\"\nFood: {self.hunger}\nWater: {self.thirst}"
