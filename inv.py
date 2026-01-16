@@ -3,18 +3,17 @@ from drink import Drink
 
 class Inv:
     def __init__(self):
-        self.inv: list = []
-    def add(self, item):
+        self.inv: list[Food | Drink] = []
+    def add(self, item: Food | Drink):
         self.inv.append(item)
-    def rm(self, item):
+    def rm(self, item: Food | Drink):
         self.inv.remove(item)
     def len(self) -> bool:
         return len(self.inv) > 0
     def find(self, deg: int) -> Food | Drink | None:
         for i in self.inv:
-            if isinstance(i, Food) or isinstance(i, Drink):
-                if i.res <= deg:
-                    return i
+            if i.res <= deg:
+                return i
         return None
     def findFood(self, deg: int) -> Food | None:
         for i in self.inv:

@@ -65,6 +65,10 @@ class Person:
   def work(self):
     self.bored += self.ranSml()
     self.money += self.ran(100, 200)
+  def buy(self, item: Food | Drink):
+    if self.money > item.cost:
+      self.money -= item.cost
+      self.inv.add(item)
   
   # stat checks
   def isHungry(self) -> bool:
@@ -87,4 +91,4 @@ class Person:
   def __str__(self):
     return f"-- Person --\nName: \"{self.name}\"\nFood: {self.hunger}\nWater: {self.thirst}"
 
-person = Person("Hello World")
+person: Person = Person("Hello World")
