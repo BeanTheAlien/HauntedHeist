@@ -1,50 +1,85 @@
+from inv import Inv
+from food import Food
+from drink import Drink
+import random
+
 class Person:
   def __init__(self, name: str):
     self.name: str = name
-    self.food: int = 100
-    self.water: int = 100
+    self.hunger: int = 100
+    self.thirst: int = 100
     self.bored: int = 0
     self.danger: int = 0
     self.tired: int = 0
     self.money: int = 1000
-
-    self.Food = self.attrib("food")
-    self.Water = self.attrib("water")
-    self.Bored = self.attrib("bored")
-    self.Danger = self.attrib("danger")
-    self.Tired = self.attrib("tired")
-    self.Money = self.attrib("money")
-
-    self.eat = self.act("eat", lambda: self.food <= 70, "food", 10)
+    self.inv: Inv = Inv()
+    self.state: int = 1
   
-  def attrib(self, attName: str):
-    return lambda amt = None : self.att(attName, amt if amt else 0)
-  def att(self, attName: str, amt: int):
-    self.apnd(attName, amt)
-    return self.get(attName)
+  # main
+  def act(self):
+    if self.state == 0:
+      return
+    if self.hunger < 0 or self.thirst < 0:
+      self.state = 0
+      return
+    self.tick()
+    # minimal danger level (ignorable)
+    if not self.inDanger():
+      if self.isHungry() or self.isThirsty():
+        if self.inv.len():
+          if self.isHungry():
+            item = self.inv.findFood(100 - self.hunger)
+            if item:
+              self.cons(item)
+          if self.isThirsty():
+            item = self.inv.findDrink(100 - self.thirst)
+            if item:
+              self.cons(item)
+      elif self.isTired():
+        self.sleep()
+      elif self.isBored():
+        pass
+    else:
+      pass
+  def tick(self):
+    self.hunger -= 1
+    self.thirst -= 1
   
-  def act(self, nm: str, cond, prop: str, amt: int):
-    self.set(nm, cond)
-    self.set(nm.title(), lambda: self.apnd(prop, amt))
+  # actions
+  def eat(self, fd: Food):
+    self.hunger += fd.res
+  def drink(self, dr: Drink):
+    self.thirst += dr.res
+  def cons(self, item: Food | Drink):
+    if isinstance(item, Food):
+      self.hunger += item.res
+    else:
+      self.thirst += item.res
+    self.inv.rm(item)
+  def sleep(self):
+    self.tired -= self.ran(10, 30)
+  def fun(self):
+    self.bored -= self.ran(10, 30)
+  def work(self):
+    self.bored += self.ran(10, 30)
   
-  def add(self, attName: str, amt: int):
-    self.apnd(attName, amt)
-    self.clamp(attName, 100)
+  # stat checks
+  def isHungry(self) -> bool:
+    return self.hunger < 70
+  def isThirsty(self) -> bool:
+    return self.thirst < 70
+  def inDanger(self) -> bool:
+    return self.danger > 10
+  def isTired(self) -> bool:
+    return self.tired > 70
+  def isBored(self) -> bool:
+    return self.bored > 70
   
-  def get(self, attName: str):
-    return getattr(self, attName)
-  def set(self, attName: str, val):
-    setattr(self, attName, val)
-  def apnd(self, attName: str, val):
-    self.set(attName, self.get(attName) + val)
-  def clamp(self, attName: str, lim: int):
-    v = self.get(attName)
-    self.set(attName, lim if v > lim else v)
+  # utils
+  def ran(self, a: int, b: int) -> int:
+    return random.randint(a, b)
   
   def __str__(self):
-    return f"-- Person --\nName: \"{self.name}\"\nFood: {self.food}\nWater: {self.water}"
+    return f"-- Person --\nName: \"{self.name}\"\nFood: {self.hunger}\nWater: {self.thirst}"
 
 person = Person("Hello World")
-print(person)
-person.Food(2)
-print(person.Food())
