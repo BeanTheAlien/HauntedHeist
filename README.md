@@ -3,6 +3,14 @@ Files from the indie game Haunted Heist.\
 This repository was created by the Haunted Heist dev, [@BeanTheAlien](https://github.com/BeanTheAlien/).\
 This is most of the build of the game.
 
+# Other Info
+This repo will provide info for many things, such as:
+- Early access keys
+- Game wiki
+- Roadmap
+- Sale dates
+- ...and more
+
 # Changelog
 ## 0.1.0 pre-alpha
 - Started adding basic events
