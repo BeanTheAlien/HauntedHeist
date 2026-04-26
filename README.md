@@ -282,3 +282,7 @@ This repo will provide info for many things, such as:
 ## 0.12.3 alpha
 - Fixed ExtraBullet to call parent.
 - Player goes to shop on death, added exit to shop.
+
+## 0.12.4 alpha
+- Add `Util` class.
+- Update rotation and position of `ShopUpg` to be `Rotator(0, 0, 90)` and offset `Vector(0, 60, 0)`.
