@@ -286,3 +286,6 @@ This repo will provide info for many things, such as:
 ## 0.12.4 alpha
 - Add `Util` class.
 - Update rotation and position of `ShopUpg` to be `Rotator(0, 0, 90)` and offset `Vector(0, 60, 0)`.
+
+## 0.12.5 alpha
+- Change `ShopUpg::Expend` to save the new tokens.
