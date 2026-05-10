@@ -289,3 +289,6 @@ This repo will provide info for many things, such as:
 
 ## 0.12.5 alpha
 - Change `ShopUpg::Expend` to save the new tokens.
+
+## 0.12.6 alpha
+- Shotgun knocks player back on fire.
