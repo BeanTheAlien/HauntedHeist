@@ -292,3 +292,8 @@ This repo will provide info for many things, such as:
 
 ## 0.12.6 alpha
 - Shotgun knocks player back on fire.
+
+## 0.12.7 alpha
+- Add `shottykbmarkaplier` and `shottykbzombie`.
+- Save `shottykbmarkaplier` and `shottykbzombie` to the game save.
+- Add `Not0F` and `RealValF` to game save.
