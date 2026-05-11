@@ -301,3 +301,6 @@ This repo will provide info for many things, such as:
 ## 0.12.8 alpha
 - Add `Util::Kill`, `Util::Revive`, `Util::__BaseActorMurder`.
 - Add `Loot::Eat`, `Loot::Regurgate`, `Loot::init`, `Loot::dolladollavalue`, `Loot::bigfreakinhorse`.
+
+## 0.12.8.1 alpha
+- Start adding `Player` movement speed contributions by total backpack horse.
