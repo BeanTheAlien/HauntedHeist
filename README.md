@@ -297,3 +297,7 @@ This repo will provide info for many things, such as:
 - Add `shottykbmarkaplier` and `shottykbzombie`.
 - Save `shottykbmarkaplier` and `shottykbzombie` to the game save.
 - Add `Not0F` and `RealValF` to game save.
+
+## 0.12.8 alpha
+- Add `Util::Kill`, `Util::Revive`, `Util::__BaseActorMurder`.
+- Add `Loot::Eat`, `Loot::Regurgate`, `Loot::init`, `Loot::dolladollavalue`, `Loot::bigfreakinhorse`.
