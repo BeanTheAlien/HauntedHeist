@@ -304,3 +304,7 @@ This repo will provide info for many things, such as:
 
 ## 0.12.8.1 alpha
 - Start adding `Player` movement speed contributions by total backpack horse.
+
+## 0.12.9 alpha
+- Movement speed is affected by horse contributions.
+- Movement speed is updated following attainment or regurgation of loot.
