@@ -311,3 +311,9 @@ This repo will provide info for many things, such as:
 
 ## 0.12.9.1 alpha
 - Minor bug fix to properly apply new max movement speed upon the calculation of the movement speed, per sum of horse contributions.
+
+## 0.12.9.2 alpha
+- Add `BoostShot` upgrade, `IntenseKnockback` upgrade.
+- Increase token gain from `Tank` kills from `1` => `5`.
+- Increase `Player::tokens` from `10` => `1000`.
+- Fix an error in `ShopCreateUpgs` that caused it to create `i` upgrades at a position.
