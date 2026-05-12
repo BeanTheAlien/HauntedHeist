@@ -308,3 +308,6 @@ This repo will provide info for many things, such as:
 ## 0.12.9 alpha
 - Movement speed is affected by horse contributions.
 - Movement speed is updated following attainment or regurgation of loot.
+
+## 0.12.9.1 alpha
+- Minor bug fix to properly apply new max movement speed upon the calculation of the movement speed, per sum of horse contributions.
