@@ -317,3 +317,9 @@ This repo will provide info for many things, such as:
 - Increase token gain from `Tank` kills from `1` => `5`.
 - Increase `Player::tokens` from `10` => `1000`.
 - Fix an error in `ShopCreateUpgs` that caused it to create `i` upgrades at a position.
+
+## 0.12.9.3 alpha
+- Add `Player::shottykbxen`.
+- Fix bug that caused `GameSaver::shottykbzombie` to not be saved.
+- Save `GameSaver::shottykbxen`.
+- Adjust knockback application to have x-axis knockback, multiplied by `Player::shottykbxen`.
