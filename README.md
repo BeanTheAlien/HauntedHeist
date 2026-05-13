@@ -323,3 +323,6 @@ This repo will provide info for many things, such as:
 - Fix bug that caused `GameSaver::shottykbzombie` to not be saved.
 - Save `GameSaver::shottykbxen`.
 - Adjust knockback application to have x-axis knockback, multiplied by `Player::shottykbxen`.
+
+## 0.12.9.4 alpha
+- Add `Blunderbuss` upgrade.
