@@ -326,3 +326,8 @@ This repo will provide info for many things, such as:
 
 ## 0.12.9.4 alpha
 - Add `Blunderbuss` upgrade.
+
+## 0.12.9.5 alpha
+- Add `DoomShell` upgrade.
+- Add `Player::pain`.
+- Update `GameSaver` to save `Player::pain`.
