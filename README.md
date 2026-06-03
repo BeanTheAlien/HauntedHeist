@@ -331,3 +331,9 @@ This repo will provide info for many things, such as:
 - Add `DoomShell` upgrade.
 - Add `Player::pain`.
 - Update `GameSaver` to save `Player::pain`.
+
+## 0.12.9.6 alpha
+- Add `Gigantes` with `health=500`, `nextAtkTime=7` and `tokens=15`.
+- Use "metal_tank_theme.mp3" for theme.
+- TODO: currently inherits tank sfx, need new sfx for gigantes
+- TODO: also add sfx for tank and other ghosts
