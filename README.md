@@ -342,3 +342,8 @@ This repo will provide info for many things, such as:
 - Add newer AI systems.
 - Add `aictrl/` path with `BB_AIBord`, `BP_AI2`, `BP_AICtrl`, `BPI_Murder`, `BT_AITree`, `BTService_Locate`, `BTTask_Attack`, `BTTask_Rome`.
 - TODO: adjust existing enemies to use newer AI system
+
+## 0.13.1 alpha [Smorter AIs Update]
+- Change existing enemies to use the newer AI system.
+- Update `Player` to reflect changes.
+- General overhauls to enemy handling.
