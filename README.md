@@ -337,3 +337,8 @@ This repo will provide info for many things, such as:
 - Use "metal_tank_theme.mp3" for theme.
 - TODO: currently inherits tank sfx, need new sfx for gigantes
 - TODO: also add sfx for tank and other ghosts
+
+## 0.13.0 alpha
+- Add newer AI systems.
+- Add `aictrl/` path with `BB_AIBord`, `BP_AI2`, `BP_AICtrl`, `BPI_Murder`, `BT_AITree`, `BTService_Locate`, `BTTask_Attack`, `BTTask_Rome`.
+- TODO: adjust existing enemies to use newer AI system
