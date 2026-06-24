@@ -347,3 +347,11 @@ This repo will provide info for many things, such as:
 - Change existing enemies to use the newer AI system.
 - Update `Player` to reflect changes.
 - General overhauls to enemy handling.
+
+## 0.13.1.1 alpha
+- Fix a bug that caused `bgmhandle` to be auto-cleaned.
+- Fix a bug that caused weapons to not function against the new AI system.
+- TODO: change Gigantes to properly throw things
+- TODO: change to have multiple trees instread of 1
+- TODO: adjust vision appropriatly
+- TODO: make enemies turn if the player was newly seen
