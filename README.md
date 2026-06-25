@@ -355,3 +355,7 @@ This repo will provide info for many things, such as:
 - TODO: change to have multiple trees instread of 1
 - TODO: adjust vision appropriatly
 - TODO: make enemies turn if the player was newly seen
+
+## 0.13.1.2 alpha
+- Add `min1`, `max1`, `min2`, `max2`.
+- Adjust mins and maxs to properly allow throwing.
