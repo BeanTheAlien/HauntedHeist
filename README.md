@@ -362,3 +362,7 @@ This repo will provide info for many things, such as:
 
 ## 0.13.1.3 alpha
 - Update player handling for cars.
+
+## 0.13.2 alpha
+- Minor changes to Pipe Bomb handling.
+- Add `zebra/NS_Boom`.
