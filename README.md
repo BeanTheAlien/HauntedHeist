@@ -359,3 +359,6 @@ This repo will provide info for many things, such as:
 ## 0.13.1.2 alpha
 - Add `min1`, `max1`, `min2`, `max2`.
 - Adjust mins and maxs to properly allow throwing.
+
+## 0.13.1.3 alpha
+- Update player handling for cars.
