@@ -366,3 +366,6 @@ This repo will provide info for many things, such as:
 ## 0.13.2 alpha
 - Minor changes to Pipe Bomb handling.
 - Add `zebra/NS_Boom`.
+
+## 0.13.2.1 alpha
+- Start moving interaction content to `zorp/PeterGriffinComponent`.
