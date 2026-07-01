@@ -369,3 +369,10 @@ This repo will provide info for many things, such as:
 
 ## 0.13.2.1 alpha
 - Start moving interaction content to `zorp/PeterGriffinComponent`.
+
+## 0.14.0 alpha
+- Introduce logic for hiding.
+- Handle hiding-based player interaction.
+- Add `props/hididng/`.
+- Add `Closet` hiding location.
+- Update `BTService_Locate` to terminate if the player is hiding.
