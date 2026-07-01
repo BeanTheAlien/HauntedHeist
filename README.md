@@ -376,3 +376,6 @@ This repo will provide info for many things, such as:
 - Add `props/hididng/`.
 - Add `Closet` hiding location.
 - Update `BTService_Locate` to terminate if the player is hiding.
+
+## 0.14.0.1 alpha
+- Add `save` event to save game to `GameSaver`.
