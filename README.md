@@ -383,3 +383,9 @@ This repo will provide info for many things, such as:
 ## 0.14.0.2 alpha
 - Add `zebra/NS_Beam`.
 - Try to update player shotgun fire; changes reverted.
+
+## 0.14.0.3 alpha
+- Start adding `Bleed` status effect.
+- Add `b/Countdown`.
+- Add `trib/Trigger`, `trib/BleedTrigger`.
+- TODO: fix bleed trigger
