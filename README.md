@@ -379,3 +379,7 @@ This repo will provide info for many things, such as:
 
 ## 0.14.0.1 alpha
 - Add `save` event to save game to `GameSaver`.
+
+## 0.14.0.2 alpha
+- Add `zebra/NS_Beam`.
+- Try to update player shotgun fire; changes reverted.
