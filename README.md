@@ -389,3 +389,6 @@ This repo will provide info for many things, such as:
 - Add `b/Countdown`.
 - Add `trib/Trigger`, `trib/BleedTrigger`.
 - TODO: fix bleed trigger
+
+## 0.14.0.4 alpha
+- Fix a bug that causes `Bleed` to not trigger.
