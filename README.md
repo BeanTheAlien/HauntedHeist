@@ -392,3 +392,7 @@ This repo will provide info for many things, such as:
 
 ## 0.14.0.4 alpha
 - Fix a bug that causes `Bleed` to not trigger.
+
+## 0.14.0.5 alpha
+- Add new `Behavior Tree` named `BT_AITree_Stationary`.
+- Rename `BT_AITree` => `BT_AITree_Patrol`.
