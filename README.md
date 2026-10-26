@@ -396,3 +396,17 @@ This repo will provide info for many things, such as:
 ## 0.14.0.5 alpha
 - Add new `Behavior Tree` named `BT_AITree_Stationary`.
 - Rename `BT_AITree` => `BT_AITree_Patrol`.
+
+## 0.14.1 alpha
+- Add generic `MostlyPainManagement` interface cast for player attacking.
+- Create `BP_NPCC` which extends `Character`.
+- Change `JimNPC` to child `BP_NPCC`.
+- Create `GothGirlNPC` which extends `BP_NPCC`.
+- TOOD: add stuff to ggnpc.
+
+## 0.14.1.1 alpha
+- Fix `JimNPC` to use `SKM_Manny_Simple` instead of `SKM_Quinn_Simple`.
+
+## 0.14.1.2 alpha
+- Fix `JimNPC` removing "npc" tag.
+- Replace actor has tag for "jim" with generic "npc" tag check.
