@@ -421,3 +421,7 @@ This repo will provide info for many things, such as:
 ## 0.14.3 alpha
 - Create `GothGirlState` enum.
 - Create `GothGirlTakeState` interface for blueprints to implement and accept state through `accept` method.
+
+## 0.14.4 alpha
+- Create `DV_GothGirl`.
+- Move some audio/interfaces/enum to `GothGirl` folder.
