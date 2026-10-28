@@ -413,3 +413,7 @@ This repo will provide info for many things, such as:
 
 ## 0.14.1.3 alpha
 - Fix disconnected "Add To Viewport" and "Set Input Mode Game And UI" nodes.
+
+## 0.14.2 alpha
+- Create `UWidget` `GothGirlInit` in `ui/gothgirl`.
+- Add `widger` event to `GothGirlInit`, which controls `globalWidgetRef`.
