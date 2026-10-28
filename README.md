@@ -425,3 +425,8 @@ This repo will provide info for many things, such as:
 ## 0.14.4 alpha
 - Create `DV_GothGirl`.
 - Move some audio/interfaces/enum to `GothGirl` folder.
+
+## 0.14.5 alpha
+- Add `ggMiddleman` to `Player`.
+- Add `state` to `GothGirlNPC`.
+- State accessors through `GothGirlNPC`.
