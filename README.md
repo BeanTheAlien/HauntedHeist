@@ -410,3 +410,6 @@ This repo will provide info for many things, such as:
 ## 0.14.1.2 alpha
 - Fix `JimNPC` removing "npc" tag.
 - Replace actor has tag for "jim" with generic "npc" tag check.
+
+## 0.14.1.3 alpha
+- Fix disconnected "Add To Viewport" and "Set Input Mode Game And UI" nodes.
