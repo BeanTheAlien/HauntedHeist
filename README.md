@@ -417,3 +417,7 @@ This repo will provide info for many things, such as:
 ## 0.14.2 alpha
 - Create `UWidget` `GothGirlInit` in `ui/gothgirl`.
 - Add `widger` event to `GothGirlInit`, which controls `globalWidgetRef`.
+
+## 0.14.3 alpha
+- Create `GothGirlState` enum.
+- Create `GothGirlTakeState` interface for blueprints to implement and accept state through `accept` method.
