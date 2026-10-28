@@ -430,3 +430,7 @@ This repo will provide info for many things, such as:
 - Add `ggMiddleman` to `Player`.
 - Add `state` to `GothGirlNPC`.
 - State accessors through `GothGirlNPC`.
+
+## 0.14.6 alpha
+- Pass `state` to `accept` on new widget.
+- TODO: create sibling widgets for other options (only have one for "About Goth Girl..." rn)
