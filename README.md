@@ -434,3 +434,9 @@ This repo will provide info for many things, such as:
 ## 0.14.6 alpha
 - Pass `state` to `accept` on new widget.
 - TODO: create sibling widgets for other options (only have one for "About Goth Girl..." rn)
+
+## 0.14.7 alpha
+- Add `GothGirlAboutTom`.
+- Add `GothGirlAboutManor`.
+- TODO: add other sibling widgets
+- TODO: Whalebomb Update (move bloated Player content to `Game Instance` and `Subsystem` (but ss needs cpp, so prolly just gi for now))
