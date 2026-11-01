@@ -460,3 +460,7 @@ This repo will provide info for many things, such as:
 - Move `TriggerHorde` to `HordeManager`.
 - Move various armory-related methods to `GunManager`.
 - Move some assets to their proper folders, or create new ones where they don't have a 'proper' folder.
+
+## v0.14.10 alpha [whalebomb]
+- Finish moving content.
+- TODO: fix shotgun not shooting properly, fix shotgun rotation on pickup
