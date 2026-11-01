@@ -1,6 +1,6 @@
 # Haunted Heist
 Files from the indie game Haunted Heist.\
-This repository was created by the Haunted Heist dev, [@BeanTheAlien](https://github.com/BeanTheAlien/).\
+This repository was created by the Haunted Heist lead dev, [@BeanTheAlien](https://github.com/BeanTheAlien/).\
 This is most of the build of the game.
 
 # Other Info
@@ -10,6 +10,11 @@ This repo will provide info for many things, such as:
 - Roadmap
 - Sale dates
 - ...and more
+
+# Attributions
+- Ben Goldstein - Lead Developer
+- honker - Lead Artist & 3D Modeler
+- Piper Hill - Voice Actor for Goth Girl
 
 # Changelog
 ## 0.1.0 pre-alpha
@@ -450,3 +455,8 @@ This repo will provide info for many things, such as:
 
 ## v0.14.8.1 alpha [whalebomb]
 - Fix access none error in Room Manager.
+
+## v0.14.9 alpha [whalebomb]
+- Move `TriggerHorde` to `HordeManager`.
+- Move various armory-related methods to `GunManager`.
+- Move some assets to their proper folders, or create new ones where they don't have a 'proper' folder.
