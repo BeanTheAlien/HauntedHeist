@@ -447,3 +447,6 @@ This repo will provide info for many things, such as:
 ## v0.14.8 alpha [whalebomb]
 - Deprecate middleman variables, adjust other BPs accordingly.
 - Set global Game Instance type to `HHGame`.
+
+## v0.14.8.1 alpha [whalebomb]
+- Fix access none error in Room Manager.
