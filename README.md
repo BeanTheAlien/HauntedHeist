@@ -443,3 +443,7 @@ This repo will provide info for many things, such as:
 
 ## v0.14.7.1 alpha [whalebomb]
 - Unrelated bug fixes: change `GameSaver` to not be a `GameInstance`, change to `SaveGame`; fix dependencies of `GameSaver`, replace stale `HHSaveSlot` references with `GameSaver`; fix `restore` call.
+
+## v0.14.8 alpha [whalebomb]
+- Deprecate middleman variables, adjust other BPs accordingly.
+- Set global Game Instance type to `HHGame`.
