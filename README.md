@@ -440,3 +440,6 @@ This repo will provide info for many things, such as:
 - Add `GothGirlAboutManor`.
 - TODO: add other sibling widgets
 - TODO: Whalebomb Update (move bloated Player content to `Game Instance` and `Subsystem` (but ss needs cpp, so prolly just gi for now))
+
+## v0.14.7.1 alpha [whalebomb]
+- Unrelated bug fixes: change `GameSaver` to not be a `GameInstance`, change to `SaveGame`; fix dependencies of `GameSaver`, replace stale `HHSaveSlot` references with `GameSaver`; fix `restore` call.
